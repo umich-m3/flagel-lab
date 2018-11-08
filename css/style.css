@@ -207,7 +207,7 @@ background-image: url('../photos/links-banner.png');
 #top-banner.news{
 margin:0px 0px 40px 0px;
 height:300px;
-background-image: url('../photos/news-banner.png');
+background-image: url('../photos/news-banner-V2.png');
 }
 
 #top-banner.teaching{
@@ -413,6 +413,19 @@ padding: 0;
 box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
 }
 
+#photo-round.stephen{
+width:150px;
+height:150px;
+border-radius: 150px;
+background-image: url('../photos/stephen.png');
+background-position: center;
+display: inline-block;
+margin-right:65px;
+margin-bottom: 90px;
+padding: 0;
+box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
+}
+
 #photo-round.vicky{
 width:150px;
 height:150px;
@@ -470,6 +483,19 @@ width:150px;
 height:150px;
 border-radius: 150px;
 background-image: url('../photos/brittany.png');
+background-position: center;
+display: inline-block;
+margin-right:65px;
+margin-bottom: 90px;
+padding: 0;
+box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
+}
+
+#photo-round.amanda{
+width:150px;
+height:150px;
+border-radius: 150px;
+background-image: url('../photos/amanda.png');
 background-position: center;
 display: inline-block;
 margin-right:65px;
@@ -699,19 +725,6 @@ padding: 0;
 box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
 }
 
-#photo-round.amanda{
-width:150px;
-height:150px;
-border-radius: 150px;
-background-image: url('../photos/sofia.png');
-background-position: center;
-display: inline-block;
-margin-right:65px;
-margin-bottom: 90px;
-padding: 0;
-box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
-}
-
 #photo-round.kanav{
 width:150px;
 height:150px;
@@ -730,6 +743,19 @@ width:150px;
 height:150px;
 border-radius: 150px;
 background-image: url('../photos/arya.png');
+background-position: center;
+display: inline-block;
+margin-right:65px;
+margin-bottom: 90px;
+padding: 0;
+box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
+}
+
+#photo-round.erin{
+width:150px;
+height:150px;
+border-radius: 150px;
+background-image: url('../photos/erin.png');
 background-position: center;
 display: inline-block;
 margin-right:65px;
@@ -803,6 +829,32 @@ padding: 0;
 box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
 }
 
+#photo-round.sewit{
+width:150px;
+height:150px;
+border-radius: 150px;
+background-image: url('../photos/sewit.png');
+background-position: center;
+display: inline-block;
+margin-right:65px;
+margin-bottom: 90px;
+padding: 0;
+box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
+}
+
+#photo-round.catherine{
+width:150px;
+height:150px;
+border-radius: 150px;
+background-image: url('../photos/catherine.png');
+background-position: center;
+display: inline-block;
+margin-right:65px;
+margin-bottom: 90px;
+padding: 0;
+box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
+}
+
 
 #photo-round.maurice{
 width:150px;
@@ -818,7 +870,7 @@ box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
 }
 
 /* End Personel */
-
+/* Start: Other headers and images */
 #photo-round.research-1{
 width:150px;
 height:150px;
