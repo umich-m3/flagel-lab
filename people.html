@@ -13,13 +13,29 @@
 <meta name="author" content="David Miller" />
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 		
-		<script type="text/javascript">
+		<script >
+			var picCount=0; // global
+			var picArray= ["photos/people-banner-V3.png","photos/people-banner-V4.png"]
+			//
+// gets next picture in array
+			function nextPic()
+				{ // check if adding 1 exceeds number of pics in array
+					picCount=(picCount+1<picArray.length)? picCount+1 : 0;
+// build the img to write to page using the new pic reference
+					var build='<img border="0" src="'+picArray[picCount]+'" width="1000" height="485">\
+					';
+					document.getElementById("top-banner").innerHTML=build;
+						// repeat this after a puse of 4000ms (4sec).
+					setTimeout('nextPic()',4000)
+				}
+//-->
+		
 
-</script>
+		</script>
 
 </head>
 	
-	<body>
+	<body onload="setTimeout('nextPic()',2000)">
 	
 		<div id="wrap">
 			
@@ -44,7 +60,8 @@
 				</div>
 				
 			</div>		
-			<div id="top-banner" class="people">
+			<div id="top-banner" class= "people">
+			<img border="0" width="1000" height="485">
 			</div>
 			
 			<div id="content">
