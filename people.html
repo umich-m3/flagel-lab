@@ -15,22 +15,19 @@
 		
 		<script >
 			var picCount=0; // global
-			var picArray= ["photos/people-banner-V3.png","photos/people-banner-V4.png"]
+			var picArray= ["photos/people-banner-V3.png","photos/people-banner-V4.png","photos/people-banner-V5.png"]
 			//
-// gets next picture in array
+			// gets next picture in array
 			function nextPic()
 				{ // check if adding 1 exceeds number of pics in array
 					picCount=(picCount+1<picArray.length)? picCount+1 : 0;
-// build the img to write to page using the new pic reference
+					// build the img to write to page using the new pic reference
 					var build='<img border="0" src="'+picArray[picCount]+'" width="1000" height="485">\
 					';
 					document.getElementById("top-banner").innerHTML=build;
 						// repeat this after a puse of 4000ms (4sec).
 					setTimeout('nextPic()',4000)
-				}
-//-->
-		
-
+				} //-->
 		</script>
 
 </head>
@@ -76,17 +73,21 @@
 
 					--><div id="lower-left" class="people"><!--
 					--><div id="photo-round" class="paolo"></div></div><!--
-					--><div id="lower-right" class="people"><div class="lower-head">Paolo Campus<span class="title">// Postdoctoral Research Fellow</span></div><div class="lower-text"><p>Paolo was born in Sardinia, Italy, but completed his studies at Sapienza - University of Rome, where he received a B.SC in Psychological Sciences and a M.Sc. in Cognitive Neuroscience. During his studies he worked in the laboratory of 'Developmental Psychobiology and Behavioral Genetics' under the mentorship of Prof. Simona Cabib, where he studied how the impact of a previous stress history alters the behavioral and neural adaptations to environmental challenges in different inbred mouse strains. In December 2014 Paolo received his Ph.D. in Behavioral Neuroscience from Sapienza University, with a dissertation titled "A genotype-environment interaction modulates the involvement of different memory systems in the consolidation of stress related memories." In September 2015 Paolo came to Ann Arbor to join the Flagel Lab as a post-doctoral fellow. His current research interests are focused on the study of the brain mechanisms underlying maladaptive behaviors and the study of individual differences in liability to drug addiction. In his spare time, Paolo loves playing guitar, listening to rock music and home-recording.</p></div></div><!--
-					
-					--><div id="lower-left" class="people"><!--
-					--><div id="photo-round" class="stephen"></div></div><!--
-					--><div id="lower-right" class="people"><div class="lower-head">Stephen Chang<span class="title">// Research Specialist Sr</span></div><div class="lower-text"><p>Steve began his research career at the University of Michigan, where he received a B.S. with High Honors in Brain, Behavior, and Cognitive Science while working in the laboratory of Dr. Kent Berridge. He then obtained his Ph.D. at Johns Hopkins University in Dr. Peter Holland's laboratory, completing a thesis on the neural basis of sign-tracking. Steve next completed a postdoctoral fellowship at Dartmouth College in Dr. Kyle Smith's laboratory investigating the neural circuitry of cue-reward learning. Steve joined the Flagel lab in September 2018. His current research interests are focused on understanding the neural pathways mediating reward-seeking behaviors that may result in the development of drug addiction.</p></div></div><!--					
+					--><div id="lower-right" class="people"><div class="lower-head">Paolo Campus<span class="title">// Postdoctoral Research Fellow</span></div><div class="lower-text"><p>Paolo was born in Sardinia, Italy, but completed his studies at Sapienza - University of Rome, where he received a B.SC in Psychological Sciences and a M.Sc. in Cognitive Neuroscience. During his studies he worked in the laboratory of 'Developmental Psychobiology and Behavioral Genetics' under the mentorship of Prof. Simona Cabib, where he studied how the impact of a previous stress history alters the behavioral and neural adaptations to environmental challenges in different inbred mouse strains. In December 2014 Paolo received his Ph.D. in Behavioral Neuroscience from Sapienza University, with a dissertation titled "A genotype-environment interaction modulates the involvement of different memory systems in the consolidation of stress related memories." In September 2015 Paolo came to Ann Arbor to join the Flagel Lab as a post-doctoral fellow. His current research interests are focused on the study of the brain mechanisms underlying maladaptive behaviors and the study of individual differences in liability to drug addiction. In his spare time, Paolo loves playing guitar, listening to rock music and home-recording.</p></div></div><!--		
 				
 					--><div id="lower-left" class="people"><!--
 					--><div id="photo-round" class="aram"></div></div><!--
 					--><div id="lower-right" class="people"><div class="lower-head">Aram Parsegian<span class="title">// Postdoctoral Affiliate</span></div><div class="lower-text"><p>Aram grew up in Washington DC, received his B.Sc. in Psychology from Bates College in 2004, worked three years in Dr. William Carlezon’s Behavioral Genetics Laboratory at McLean Hospital in Belmont, MA, and received his Ph.D. in Neuroscience from the Medical University of South Carolina in 2012. His thesis examined the contribution of methamphetamine-induced dysfunctions in the corticostriatal pathway to persistent drug seeking behavior. He is now a postdoctoral fellow in Dr. Huda Akil’s laboratory, and collaborates with the Flagel Lab on a regular basis. Aram’s overall research interest is to understand how environment, behavioral experiences, and neurobiological factors contribute to susceptibility for neuropsychiatric conditions including mood disorders and drug addiction.</p></div></div><!--
-				
+					
 					--><div class="intro-topic">
+					<p>Senior Scientists/Research Specialist</p>
+					</div><!--					
+					
+					--><div id="lower-left" class="people"><!--
+					--><div id="photo-round" class="stephen"></div></div><!--
+					--><div id="lower-right" class="people"><div class="lower-head">Stephen Chang<span class="title">// Research Specialist Sr</span></div><div class="lower-text"><p>Steve began his research career at the University of Michigan, where he received a B.S. with High Honors in Brain, Behavior, and Cognitive Science while working in the laboratory of Dr. Kent Berridge. He then obtained his Ph.D. at Johns Hopkins University in Dr. Peter Holland's laboratory, completing a thesis on the neural basis of sign-tracking. Steve next completed a postdoctoral fellowship at Dartmouth College in Dr. Kyle Smith's laboratory investigating the neural circuitry of cue-reward learning. Steve joined the Flagel lab in September 2018. His current research interests are focused on understanding the neural pathways mediating reward-seeking behaviors that may result in the development of drug addiction.</p></div></div><!--									
+					--><div class="intro-topic">
+					
 					<p>Graduate Students</p>
 					</div><!--
 
@@ -129,10 +130,7 @@
 					--><div id="lower-left" class="people"><!--
 					--><div id="photo-round" class="yiqui"></div></div><!--
 					--><div id="lower-right" class="people"><div class="lower-head">Charlotte Yang<span class="title">// Undergraduate Honors Student</span></div><div class="lower-text"><p>Charlotte is from Ann Arbor and joined the Flagel Lab at the start of her Sophomore year, in September 2017. She is in the LSA Honors Program and is currently pursuing a major in Neuroscience. Her research interests include factors contributing to addiction liability and the relationship between stress responsiveness and stimulus-reward learning. Upon graduation, Yiqiu hopes to go to medical or graduate school. When she is not in the lab or cramming in the Fishbowl, Yiqiu can be found practicing table tennis, solving Rubik's Cubes, or cooking Chinese food. She is also an avid sci-fi reader.</p></div></div><!--					
-					
-					--><div id="lower-left" class="people"><!--
-					--><div id="photo-round" class="sewit"></div></div><!--
-					--><div id="lower-right" class="people"><div class="lower-head">Sewit Yohannes<span class="title">// Undergraduate Student</span></div><div class="lower-text"><p>Sewit is from Albuquerque, New Mexico and is a freshman at the school of Literature, Science and the Arts. She is undecided but planning to go into medical school and become a psychiatrist. Her end goal is to go to East Africa and establish a clinic to help educate the population about mental health. When she isn't in a club meeting or doing homework, Sewit enjoys exploring Ann Arbor, hanging out with friends, swimming or trying new foods.</p></div></div><!--					
+				
 					
 					<!-- -->
 					<div class="intro-topic">
@@ -141,14 +139,10 @@
 					--><div id="lower-left" class="people"><!--
 					--><div id="photo-round" class="maurice"></div></div><!--
 					--><div id="lower-right" class="people"><div class="lower-head">Maurice Chojecki<span class="title">// Laboratory Manager // Research Laboratory Specialist</span></div><div class="lower-text"><p>Maurice Chojecki grew up outside of Chicago where he attended The University of Illinois at Chicago for his Bachelors in Bioengineering. While there he assisted in creating cortical vascular computer simulations as well as stroke therapy games for rehabilitative engineering. In August 2015, after working in industry for a year-and-a-half, he left Chicago to attend U of M to obtain his MSE in Biomedical Engineering. Under the guidance of Drs. Yue Cao and James Balter he analyzed data regarding radiation therapy and white matter integrity with magnetic resonance and diffusion tensor imaging and graduated in the Fall of 2016. Having fallen in love with Ann Arbor he decided to stay and can be found at a local bar or playing board games around town with friends.</p></div></div><!--
-
-					--><div id="lower-left" class="people"><!--
-					--><div id="photo-round" class="aidan"></div></div><!--
-					--><div id="lower-right" class="people"><div class="lower-head">Aidan Horvath<span class="title">// Research Technician</span></div><div class="lower-text"><p>Aidan holds a BS in Zoology from North Dakota State University in Fargo, ND. After graduating in 2013, he began volunteering in Israel Liberzon’s lab at the University of Michigan where he studied the effects of Single Prolonged Stress on fear learning and retention. His interest in behavioral neuroscience and individual differences drew him to the P50 project, a collaborative effort between Dr. Flagel and Dr. Terry Robinson, as well as others at other institutions (<a href="http://ratgenes.org/" target="_blank">ratgenes.org</a>). The primary goal of the P50 project is to investigate genetic factors underlying behavioral phenotypes related to addiction, specifically the attribution of incentive salience to a reward cue. Aidan’s long term goal is to obtain a PhD and guide future generations of scientists as a teacher and researcher. His other pursuits include various creative ventures such as animation and music writing.</p></div></div><!--
 					
 					--><div class="intro-topic">
-                                        <p>Recent Lab Alumni</p>
-                                        </div><!--
+                    <p>Recent Lab Alumni</p>
+                    </div><!--
 
 					--><div id="lower-left" class="people"><!--
 					--><div id="photo-round" class="ignacio"></div></div><!--
@@ -173,7 +167,12 @@
 					--><div id="lower-left" class="people"><!--
 					--><div id="photo-round" class="alesa"></div></div><!--
 					--><div id="lower-right" class="people"><div class="lower-head">Alesa Hughson<span class="title">// Research Technician (2015-2018) </span></div><div class="lower-text"><p>Current position: Graduate Student in Biomedical Engineering, Michigan State University</p></div></div><!--					
-										
+
+					--><div id="lower-left" class="people"><!--
+					--><div id="photo-round" class="brittany"></div></div><!--
+					--><div id="lower-right" class="people"><div class="lower-head">Brittany Kuhn<span class="title">// Neuroscience Graduate Student Alumni (2014 – 2019) </span></div><div class="lower-text"><p>Current Position: Postdoctoral Fellow at Medical University of South Carolina </p></div></div><!--					
+
+					
 					--><div id="lower-left" class="people"><!--
 					--><div id="photo-round" class="katie"></div></div><!--
 					--><div id="lower-right" class="people"><div class="lower-head">Katie Long<span class="title">// Undergraduate Honors Student and Lab Manager (2012-2014)</span></div><div class="lower-text"><p>Current position: MSTP Student, University of Chicago (<a href="http://bensmaialab.org/lab-members/" target="_blank">http://bensmaialab.org/lab-members/</a>)</p></div></div><!--
@@ -219,6 +218,10 @@
 					--><div id="lower-left" class="people"><!--
 					--><div id="photo-round" class=""></div></div><!--
                                         --><div id="lower-right" class="people-previous"><div class="lower-head">Kanav Gupta<span class="title">// Undergraduate Student (2016-2018)</span></div></div><!--																			
+										
+					--><div id="lower-left" class="people"><!--
+					--><div id="photo-round" class=""></div></div><!--
+                                        --><div id="lower-right" class="people-previous"><div class="lower-head">Aidan Horvath<span class="title">// Research Technician (2015-2019)</span></div></div><!--																													
 		
 					--><div id="lower-left" class="people"><!--
 					--><div id="photo-round" class=""></div></div><!--
