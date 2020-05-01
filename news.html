@@ -13,37 +13,50 @@
 <meta name="author" content="David Miller" />
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 		
-		<script type="text/javascript">
-
-</script>
+		<script type="text/javascript"></script>
+		<script >
+			var picCount=0; // global
+			var picArray= ["photos/news-banner-V3.png","photos/news-banner-V4.png"]
+			//
+			// gets next picture in array
+			function nextPic()
+				{ // check if adding 1 exceeds number of pics in array
+					picCount=(picCount+1<picArray.length)? picCount+1 : 0;
+					// build the img to write to page using the new pic reference
+					var build='<img border="0" src="'+picArray[picCount]+'" width="1000" height="300">\
+					';
+					document.getElementById("top-banner").innerHTML=build;
+						// repeat this after a puse of 4000ms (4sec).
+					setTimeout('nextPic()',4000)
+				} //-->
+		</script>	
+	
+	
+	
 
 </head>
 	
-	<body>
+	<body  onload="setTimeout('nextPic()',2000)">
 	
 		<div id="wrap">
 			
-			<div id="header">
-					<div id="footer-left" style="width:330px;height:150px;">
-										<a href="http://med.umich.edu/"><div id="header-umich-logo">
-												</div></a></div>			
-				<!---->
-				<div id="nav" >
-					<ul style="float:right;display:inline-block;">
+<header id="header">	  
+	  <img src="photos/Signature-Vertical.png" width="201" height="126" alt="" style="margin-top:10px;float:left"/>
+	  <div id="nav" >
+					<ul style="float:left;display:inline-block;text-aline:center">
 							<li><a href="index.html" >Home</a></li>
 							<li><a href="research.html">Research</a></li>
 							<li><a href="publications.html">Publications</a></li>
-							<li><a href="news.html" class="active"> News</a><li>
-							<p>
+							<li><a href="news.html" class="active" >News</a></li>
+						<p>
 							<li><a href="teaching.html">Teaching & Outreach</a></li>
 							<li><a href="people.html" >People</a></li>								
 							<li><a href="join.html">Join the Lab</a></li>
 							<li><a href="links.html" >Links</a></li>
-							</p>
+						</p>
 					</ul>
-				</div>
-				
-			</div>	
+		</div>	
+</header>	
 			
 			<div id="top-banner" class="news">
 			</div>
@@ -53,17 +66,12 @@
 				<div class="news-header">Flagel Lab News</div>
 				<div class="lower-news-text">				
 				<ul>
-					<p><li> <span class="bold">Dr. Flagel</span> was interviewed for a recent article in Scientific American that features our work. The article is titled, <a href="https://www.scientificamerican.com/article/scientists-spot-addiction-associated-circuit-in-rats/" target="_blank">“Scientists Spot Addiction-Associated Circuit in Rats”,</a> and has been pulished online</li></p>
+					<p><li> <span class="bold">Dr. Flagel</span> was interviewed for a recent article in Scientific American that features our work. The article is titled, <a href="https://www.scientificamerican.com/article/scientists-spot-addiction-associated-circuit-in-rats/" target="_blank">“Scientists Spot Addiction-Associated Circuit in Rats”,</a> and has been published online.</li></p>
 					<p><li> <span class="bold">Dr. Paolo Campus</span> and others, recently plubished an <a href="https://elifesciences.org/for-the-press/78fde8e0/brain-circuit-controls-individual-responses-to-temptation-in-rats" target="_blank"> Article in eLIFE </a> entitled: "The paraventricular thalamus is a critical mediator of top-down control of cue-motivated behavior in rats". </li></p>
 					<p><li> <span class="bold">Sofia Lopez</span> (Neuroscience Graduate Student) received an <a href="https://neuroscienceblueprint.nih.gov/current-d-span-awardees" target="_blank"> NIH Blueprint Diversity Specialized Predoctoral to Postdoctoral Advancement in Neuroscience (D-SPAN) </a> Award is to support her as she completes her dissertation work in the Flagel Lab and then as a postdoctoral fellow. Sofia’s work focuses on the interaction between stress- and reward-systems in mediating individual differences in cue-motivated behaviors. Congrats to Sofia and all of the new DSPAN Scholars!</li></p>
 					<p><li> <span class="bold">Dr. Flagel</span> was happy to work with Health in Our Hands (<a href="https://twitter.com/health_io_hands" target="_blank">@heatlh_io_hands</a>) and students from the University of Michigan School of Public Health (Erika Holiday, Ross Baiers and Madison Hafitz) on this <a href="https://drive.google.com/file/d/1MxkJ-PFvmXyfvHEPYPqr_hNXNj5C3LXM/view" target="_blank"> video </a> which will be embedded into a new addiction unit to expose young students to the work and careers of scientists.</li></p>
 					<p><li> <span class="bold">Amanda Iglesias</span> was awarded a <a href="https://www.nsfgrfp.org/" target="_blank">National Science Foundation (NSF)</a> Graduate Research Fellowship to study subcortical hypthalamic circuitry involved in cue-reward learning. The NSF Fellowship will support her from 2019-2022!  </li></p>
-					<p><li> <span class="bold">Allison Johnson</span> and <span class="bold"> Charlotte Yang </span> were both award Neuroscience Summer Research Fellowship from U of M to continue working with us this summer!</li> </p>				
-					<p><li> <span class="bold">Jason Wong</span> was selected to participate in the NSF International Program for The Advancement of Neurotechnology this summer!</li> </p>
-					<p><li> <span class="bold">Dr. Brittany Kuhn</span> successfully defended her thesis and started her postdoctoral fellowship position in <a href="https://education.musc.edu/colleges/medicine/departments/neuroscience/research/kalivas" target="_blank"> Dr. Peter Kalivas’ lab</a> at the Medical University of South Carolina! </li> </p>
-					<p><li> <span class="bold">Allison Johnson</span> was selected to present at the <a href="http://www.ncrc.hcura.org/" targe="_blank"> Harvard National Collegiate Research Conference</a> in January of 2019!</li> </p>								
-					<p><li> <span class="bold">Brittany Kuhn</span> (Neuroscience Graduate Student), <span class="bold"> Dr. Paolo Campus</span> (Postdoctoral Fellow) and <span class="bold">Dr. Flagel</span> recently published a Chapter in the online open-access book entitled: “Sign-tracking and Addiction” (edited by Drs. Arthur Tomie and Jonathan Morrow). You can see the entire book and Chapter 3: “The Neurobiological Mechanisms Underlying Sign-tracking Behavior”, here <a href="https://quod.lib.umich.edu/m/maize/mpub10215070" target="_blank"> Sign-Tracking and Drug Addiction.</a></li> </p>
-				</ul>	
+					</ul>	
 				</div><!-- -->
 				</div>
 			</div>
@@ -73,7 +81,7 @@
 					<p>
 					<a href="index.html" target="_blank" style="text-align:center;"><span style="font-weight:700;font-size:20;">THE FLAGEL LAB</span></a><br>
 					Department of Psychiatry<br>
-Molecular and Behavioral Neuroscience Institute<br>
+Molecular Neuroscience Institute<br>
 University of Michigan, Ann Arbor, MI 48109<br> <a href="mailto:sflagel@umich.edu">sflagel@umich.edu</a><br>
 <a href="https://twitter.com/Flagel_Lab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Flagel_Lab</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</p>
