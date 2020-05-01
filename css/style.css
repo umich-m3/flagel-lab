@@ -3,20 +3,20 @@
 /* ---------------- */
 
 body{
-background: #02bcbb;
+background: #0B0C10; /* Change Here */ 
 width: 100%;
 margin:0;
 }
 
 a{
 text-decoration: none;
-color: #005e5f;
+color:#45A29E;
 font-weight: 500;
 }
 
 .intro a{
 text-decoration: none;
-color: black;
+color: white;
 font-weight: 200;
 }
 
@@ -24,7 +24,7 @@ font-weight: 200;
 width:1000px;
 min-width: 940px;
 margin:0px auto;
-background: #e4e1df ;
+background: #1f2833; /* Change Here */ 
 box-shadow: 0px 0px 18px rgba(0,0,0,.15);
 border-top:4px solid #000000;
 position: relative;
@@ -32,9 +32,9 @@ overflow: hidden;
 }
 
 #content{
-width: 830px;
+width: 850px;
 margin: 0px auto;
-padding: 0px 65px 0px;
+padding: 0px 0px 0px 0px;
 }
 
 
@@ -67,7 +67,7 @@ max-width: 800px;
 }
 
 #header-umich-logo{
-background-image: url('../photos/UMresize.png');
+background-image: url('../photos/Signature-Vertical.png');
 height:121px;
 width:191px;
 margin:10px;
@@ -109,17 +109,17 @@ padding-right: 0;
 }
 
 #nav ul li a.active{
-color: black;
+color: black; /* Change Here */ 
 padding: 6px 8px;
-background: #00c8c8;
+background: #45A29E; /* Change Here */ 
 border-radius: 20px;
 margin:0px;
 }
 
 #nav ul li a{
-color: white;
+color: black;
 padding: 6px 8px;
-background:#dd4141 ;
+background:#C5C6C7; /* Change Here */ 
 border-radius: 20px;
 }
 
@@ -143,7 +143,7 @@ p.blurb{
 font-family: helvetica neue, helvetica, sans-serif;
 font-size:15px;
 font-weight: 400;
-color:black;
+color:white;
 margin: 20px 0px 40px 0px;
 }
 
@@ -151,7 +151,7 @@ p.blurb a{
 font-family: helvetica neue, helvetica, sans-serif;
 font-size:15px;
 font-weight: 700;
-color:#005e5f;
+color:#45A29E;
 text-decoration: none;
 }
 
@@ -207,7 +207,7 @@ background-image: url('../photos/links-banner.png');
 #top-banner.news{
 margin:0px 0px 40px 0px;
 height:300px;
-background-image: url('../photos/news-banner-V2.png');
+background-image: url('../photos/news-banner-V3.png');
 }
 
 #top-banner.teaching{
@@ -218,7 +218,7 @@ background-image: url('../photos/teaching-banner-V2.png');
 
 #top-banner.join{
 margin:0px;
-height:300x;
+height:300px;
 background-image: url('../photos/join-banner.png');
 }
 
@@ -239,7 +239,7 @@ display: block;
 font-family: Helvetica Neue, Helvetica, sans-serif;
 font-size: 24px;
 font-weight:700;
-color:#001c2b;
+color:#66FCF1; /* Change Here */ 
 text-align:center;
 }
 
@@ -248,7 +248,7 @@ display: block;
 font-family: Helvetica Neue, Helvetica, sans-serif;
 font-size: 24px;
 font-weight:700;
-color:#001c2b;
+color:#66FCF1; /* Change Here */ 
 text-align:center;
 }
 
@@ -259,13 +259,13 @@ font-size:20px;
 text-align: justify;
 font-weight:200;
 line-height:30px;
-color:#001c2b;
+color: white;  /* Change Here */ 
 margin:0;
 padding:0;
 }
 
 .intro p a:hover{
-color:#02bcbb;
+color:black; /* Change Here */ 
 }
 
 #publications{
@@ -273,7 +273,7 @@ font-family: Helvetica Neue, Helvetica, sans-serif;
 font-size: 15px;
 font-weight:400;
 line-height: 16px;
-color: #121212;
+color: white; /* Change Here */ 
 margin:0px 0px 75px 0px;
 padding:0px;
 }
@@ -359,13 +359,13 @@ box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
 align: center;
 }
 
-/* Personel */
+/* Personnel */
 
 #photo-round.shelly{
 width:150px;
 height:150px;
 border-radius: 150px;
-background-image: url('../photos/shelly.png');
+background-image: url('../photos/shellyV2.png');
 background-position: center;
 display: inline-block;
 margin-right:65px;
@@ -882,6 +882,58 @@ padding: 0;
 box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
 }
 
+#photo-round.micheal{
+width:150px;
+height:150px;
+border-radius: 150px;
+background-image: url('../photos/Micheal.png');
+background-position: center;
+display: inline-block;
+margin-right:65px;
+margin-bottom: 90px;
+padding: 0;
+box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
+}
+
+#photo-round.jasmine{
+width:150px;
+height:150px;
+border-radius: 150px;
+background-image: url('../photos/Jasmine.png');
+background-position: center;
+display: inline-block;
+margin-right:65px;
+margin-bottom: 90px;
+padding: 0;
+box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
+}
+
+#photo-round.Hannah{
+width:150px;
+height:150px;
+border-radius: 150px;
+background-image: url('../photos/Hannah.png');
+background-position: center;
+display: inline-block;
+margin-right:65px;
+margin-bottom: 90px;
+padding: 0;
+box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
+}
+
+#photo-round.Alexandra{
+width:150px;
+height:150px;
+border-radius: 150px;
+background-image: url('../photos/Alexandra.png');
+background-position: center;
+display: inline-block;
+margin-right:65px;
+margin-bottom: 90px;
+padding: 0;
+box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
+}
+
 /* End Personel */
 /* Start: Other headers and images */
 #photo-round.research-1{
@@ -928,6 +980,19 @@ width:150px;
 height:150px;
 border-radius: 150px;
 background-image: url('../photos/research-4.png');
+background-position: center;
+display: inline-block;
+margin-right:65px;
+margin-bottom: 100px;
+padding: 0;
+box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
+}
+
+#photo-round.research-5{
+width:150px;
+height:150px;
+border-radius: 150px;
+background-image: url('../photos/research-5.png');
 background-position: center;
 display: inline-block;
 margin-right:65px;
@@ -1079,6 +1144,19 @@ padding: 0;
 box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
 }
 
+#photo-round.backyard{
+width:150px;
+height:150px;
+border-radius: 150px;
+background-image: url('../photos/backyard.png');
+background-position: center;
+display: inline-block;
+margin-right:65px;
+margin-bottom: 100px;
+padding: 0;
+box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
+}
+
 #photo-round.psych-437b{
 width:150px;
 height:150px;
@@ -1160,14 +1238,14 @@ display: block;
 font-family: Helvetica Neue, Helvetica, sans-serif;
 font-size: 20px;
 font-weight:700;
-color:#001c2b;
+color:#66FCF1;
 }
 
 .lower-head-loose{
 font-family: Helvetica Neue, Helvetica, sans-serif;
 font-size: 20px;
-font-weight:700;
-color:#001c2b;
+font-weight:700px;
+color:#66FCF1;
 margin-bottom:10px;
 }
 
@@ -1175,7 +1253,7 @@ margin-bottom:10px;
 font-family: Helvetica Neue, Helvetica, sans-serif;
 font-size: 20px;
 font-weight:400;
-color:#001c2b;
+color:#66FCF1;
 margin-left:10px;
 }
 
@@ -1185,7 +1263,7 @@ font-family: Helvetica Neue, Helvetica, sans-serif;
 font-size: 16px;
 font-weight:400;
 line-height: 20px;
-color: #222;
+color: white;
 }
 
 .lower-news-text{
@@ -1194,7 +1272,7 @@ font-family: Helvetica Neue, Helvetica, sans-serif;
 font-size: 16px;
 font-weight:200;
 line-height: 25px;
-color: #222;
+color: white;
 padding-bottom: 40px;
 }
 
@@ -1203,7 +1281,7 @@ display: block;
 font-family: Helvetica Neue, Helvetica, sans-serif;
 font-size: 24px;
 font-weight:700;
-color:#001c2b;
+color:#66FCF1;
 text-align:center;
 }
 
@@ -1229,7 +1307,7 @@ font-family: Helvetica Neue, Helvetica, sans-serif;
 font-size: 13px;
 font-weight:400;
 line-height: 20px;
-color: #222;
+color: white;
 margin-bottom:65px;
 margin-top:0px;
 }
@@ -1251,7 +1329,7 @@ h3{
 font-family: Helvetica Neue, Helvetica, sans-serif;
 font-size: 16px;
 font-weight:700;
-color:#001c2b;
+color:#66FCF1;
 margin: 0px;
 padding:0px;
 }
