@@ -1051,6 +1051,31 @@ padding: 0;
 box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
 }
 
+#photo-round.Vrinda{
+width:150px;
+height:150px;
+border-radius: 150px;
+background-image: url('../photos/Vrinda.png');
+background-position: center;
+display: inline-block;
+margin-right:65px;
+margin-bottom: 90px;
+padding: 0;
+box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
+}
+
+#photo-round.Jenna{
+width:150px;
+height:150px;
+border-radius: 150px;
+background-image: url('../photos/Jenna.png');
+background-position: center;
+display: inline-block;
+margin-right:65px;
+margin-bottom: 90px;
+padding: 0;
+box-shadow: inset 1px 1px 12px rgba(0,0,0,.4);
+}
 
 /* End Personel */
 /* Start: Other headers and images */
